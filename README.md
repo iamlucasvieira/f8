@@ -4,9 +4,8 @@
 
 ## Features ✨
 
-- 🎲 **Randomized Responses**: Get a unique answer every time you ask a question.
-- 🦀 **Rust-Powered**: Built for speed and reliability with Rust.
-- 🛠️ **Customizable**: Easily add your own responses or tweak existing ones.
+-   🎲 **Randomized Responses**: Get a unique answer every time you ask a question.
+-   🦀 **Rust-Powered**: Built for speed and reliability with Rust.
 
 ## Installation 📦
 
@@ -21,23 +20,21 @@ cargo install --path .
 ```
 
 ## Usage 🚀
+
 Just type your question after the f8 command:
 
 ```text
-f8 Will I get that promotion?
+f8 "Will I get that promotion?"
 ```
+
 f8 will then respond with a randomly chosen answer, like:
 
 ```text
 The signs point to yes.
 ```
 
-## Customizing Responses 🎨
-You can personalize f8 by adding custom responses. Open the configuration file located at:
-```
-~/.f8/config.toml
-```
 And add your custom answers under the `[responses]` section.
 
 ## Contributing 🤝
+
 Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
